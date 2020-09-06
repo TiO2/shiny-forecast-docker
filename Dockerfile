@@ -23,3 +23,4 @@ RUN apt-get update && \
 RUN R -e "install.packages('shinythemes',dependencies=TRUE, repos='http://cran.rstudio.com/')"
 RUN R -e "install.packages('forecast', repos='http://cran.rstudio.com/')"
 RUN R -e "install.packages('xts',dependencies=TRUE, repos='http://cran.rstudio.com/')"
+RUN R -e "install.packages('pins',dependencies=TRUE, repos='http://cran.rstudio.com/')"
